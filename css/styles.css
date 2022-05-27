@@ -23,7 +23,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 19%;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -34,6 +34,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     font-size: 18px;
+    margin-right: 18%;
     color: #E5E7EB;
 }
 
@@ -56,7 +57,7 @@ li {
 
 .quart_one {
     background-color: #1f2937;
-    height: 350px;
+    height: 40vh;
     margin-left: 8px;
     margin-right: 8px;
     display: flex;
@@ -90,7 +91,7 @@ li {
 
 .quart_two {
     background-color: white;
-    max-height: 600px;
+    max-height: 40vh;
     margin-left: 8px;
     margin-right: 8px;
     display: flex;
@@ -140,7 +141,7 @@ li {
 
 .quart_three {
     background-color: #e5e7eb;
-    height: auto;
+    height: 22vh;
     margin-left: 8px;
     margin-right: 8px;
     display: flex;
@@ -192,25 +193,32 @@ p.thor {
     padding-bottom: 5px;
 }
 
-.quart_four {
+.quart_four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18vh;
+    background-color: white;
+}
+.quart_four_1 {
     display: flex;
     flex-direction: row;
     background-color: #3882F6;
     justify-content: space-between;
-    gap: 50px;
-    height: 100px;
-    max-width: auto;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin: 40px;
+    align-items: center;
+    height: 40%;
+    width: 50%;
+    border-radius: 5px;
 }
 
 .blue {
     display: flex;
-    justify-content: center;
-    border-radius: 40px solid white;
-    color: #E5E7EB;
-    background-color: #3882F6;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #E5E7EB;  
+    margin-left: 5%;
 }
 
 p.call {
@@ -219,13 +227,27 @@ p.call {
     justify-content: flex-start;
     font-size: 18px;
     font-weight: 600;
+    margin: 0;
 }
+
+p.product {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .signup2 {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-right: 5px;
+    width: 30%;
+    height: 25%;
     background-color: #3882F6;
-    border-radius: 5px solid white;
+    color: #E5E7EB;
+    border-radius: 5px solid #E5E7EB;
 }
 
 .footer {
@@ -290,4 +312,9 @@ p.description2 {
     font-size: 18px;
     color: slategray;
     width: 150px;
+}
+
+p.copyright {
+    font-size: 10px;
+    font-weight: 200;
 }
